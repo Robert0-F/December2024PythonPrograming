@@ -1,4 +1,5 @@
 def evael(code):
+    """Фунция-интерпретатор"""
     env = {}
     stack = []
     for line in code.strip().splitlines():
